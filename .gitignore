@@ -1,0 +1,8 @@
+.vs
+.idea
+x86
+x64
+Debug
+Release
+*.user
+*.sdf

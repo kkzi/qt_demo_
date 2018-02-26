@@ -1,0 +1,10 @@
+﻿QTreeView, QTableView { outline: none; }
+QTreeView::item { padding: 2px 0; color: #000; border-bottom: 1px solid #ddd; }
+QTreeView::item:has-children, QTreeView::item:has-children:selected, QTreeView::branch { color: #000; background: #5197bf; }
+QTreeView::item:selected { background: #17899d; color: #fff; }
+/*QTableWidget { border:1px solid blue; }*/
+/*QTableWidget[multirow] { border:1px solid red; }*/
+QTableWidget::item:first{ background:red; }
+QListWidget { border-top:1px solid #17899d; spacing:2px; }
+QListWidgetItem { border-bottom:1px solid #17899d; margin:-2px; }
+QHeaderView:selected { font:normal 18px; color:red; }
